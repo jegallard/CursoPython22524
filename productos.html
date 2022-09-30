@@ -6,11 +6,11 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="css/bootstrap.min.css">
     <script src="js/bootstrap.min.js"></script>
-    <title>Title Index.html</title>
+    <title>Nosotros</title>
 </head>
 <body>
     <header>
-        <h1>Index.html</h1>
+        <h1>Productos.html</h1>
     </header>
     <nav class="navbar navbar-expand-lg bg-light">
         <div class="container-fluid">
@@ -40,12 +40,36 @@
           </div>
         </div>
       </nav>
+    
+    <form action="">
+        <!-- Agrupación de campos -->
+        <fieldset>
+            <legend>Datos personales</legend>
 
-    HOLA MUNDO! <br>
-    SOY MERY PROBANDO MI PRIMER COMMIT Y PUSH
+            <!-- Campo de texto -->
+            <label >Nombre de usuario:</label> 
+            <input type="text" name="nombre" placeholder="Por ej: John Smith" required/>
+            <br></br>
+            <!-- Campo numérico -->
+            Edad:
+            <input type="number" name="edad" min="18" max="100" placeholder="18" />
+            <br><br>
+            <!-- Botón radio de opción -->
+            Sexo:
+            <!-- Primera opción -->
+            <input type="radio" name="sexo" value="H" /> Hombre
+            <!-- Segunda opción -->
+            <input type="radio" name="sexo" value="M" /> Mujer
 
-    <p>
-        Hola proyecto soy Ignacio probando
-    </p>
+        
+        </fieldset>
+    </form>
+    
+    <!--
+    <footer>
+        <i class='bx bxl-facebook-circle' style='color:#253ea1'  ></i>
+        <i class='bx bxl-whatsapp' style='color:#19e10c'  ></i> 
+    </footer>
+    -->
 </body>
 </html>
