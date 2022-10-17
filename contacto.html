@@ -44,16 +44,17 @@
     <form class="row g-3">
         <div class="col-md-6">
           <label for="inputNombre" class="form-label">Nombre</label>
-          <input type="email" class="form-control" id="inputNombre">
+          <input type="text" class="form-control" id="inputNombre">
         </div>
         <div class="col-md-6">
-          <label for="inputPassword4" class="form-label">Password</label>
-          <input type="password" class="form-control" id="inputPassword4">
+          <label for="inputEmail" class="form-label">Email</label>
+          <input type="email" class="form-control" id="inputEmail">
         </div>
         <div class="col-12">
-          <label for="inputAddress" class="form-label">Address</label>
-          <input type="text" class="form-control" id="inputAddress" placeholder="1234 Main St">
+          <label for="inputReason" class="form-label">Motivo</label>
+          <input type="text" class="form-control" id="inputReason" placeholder="Estoy interesado en...">
         </div>
+        <!--
         <div class="col-12">
           <label for="inputAddress2" class="form-label">Address 2</label>
           <input type="text" class="form-control" id="inputAddress2" placeholder="Apartment, studio, or floor">
@@ -81,8 +82,9 @@
             </label>
           </div>
         </div>
+        -->
         <div class="col-9">
-          <button type="submit" class="btn btn-primary">Sign in</button>
+          <button type="submit" class="btn btn-primary" onClick="javascript:submitButton()"><img src="img/whatsapp.png" /></button>
         </div>
       </form>
     
