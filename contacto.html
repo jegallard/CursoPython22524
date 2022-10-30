@@ -61,73 +61,24 @@
     </div>
   </nav>
 
-  <form class="row g-3">
+  <form class="row g-3" formaction="https://www.google.com">
     <div class="col-md-6">
       <label for="inputNombre" class="form-label">Nombre</label>
-      <input type="email" class="form-control" id="inputNombre">
+      <input type="text" class="form-control" id="inputNombre">
     </div>
     <div class="col-md-6">
-      <label for="inputPassword4" class="form-label">Contraseña</label>
-      <input type="password" class="form-control" id="inputPassword4">
+      <label for="inputEmail" class="form-label">Email</label>
+      <input type="email" class="form-control" id="inputEmail">
     </div>
     <div class="col-12">
-      <label for="inputAddress" class="form-label">Dirección</label>
-      <input type="text" class="form-control" id="inputAddress">
-    </div>
-    <div class="col-12">
-      <label for="inputAddress2" class="form-label">Dirección 2</label>
-      <input type="text" class="form-control" id="inputAddress2">
-    </div>
-    <div class="col-md-6">
-      <label for="inputCity" class="form-label">Ciudad</label>
-      <input type="text" class="form-control" id="inputCity">
-    </div>
-    <div class="col-md-4">
-      <label for="inputState" class="form-label">Provincia</label>
-      <select id="inputState" class="form-select">
-        <option selected>Elegir...</option>
-        <option>Buenos Aires</option>
-        <option>Ciudad Autónoma de Buenos Aires</option>
-        <option>Chaco</option>
-        <option>Chubut</option>
-        <option>Córdoba</option>
-        <option>Corrientes</option>
-        <option>Entre Rios</option>
-        <option>Formosa</option>
-        <option>Jujuy</option>
-        <option>La Pampa</option>
-        <option>La Rioja</option>
-        <option>Mendoza</option>
-        <option>Misiones</option>
-        <option>Neuquén</option>
-        <option>Río Negro</option>
-        <option>Salta</option>
-        <option>San Juan</option>
-        <option>San Luis</option>
-        <option>Santa Cruz</option>
-        <option>Santa Fé</option>
-        <option>Santiago del Estero</option>
-        <option>Tierra del Fuego</option>
-        <option>Tucumán</option>
-      </select>
-    </div>
-    <div class="col-md-2">
-      <label for="inputZip" class="form-label">Código postal</label>
-      <input type="text" class="form-control" id="inputZip">
-    </div>
-    <div class="col-12">
-      <div class="form-check">
-        <input class="form-check-input" type="checkbox" id="gridCheck">
-        <label class="form-check-label" for="gridCheck">
-          Check me out
-        </label>
-      </div>
+      <label for="inputReason" class="form-label">Motivo</label>
+      <input type="text" class="form-control" id="inputReason" placeholder="Estoy interesado en...">
     </div>
     <div class="col-9">
-      <button type="submit" class="btn btn-primary">Confirmar</button>
+      <button type="submit"  class="btn btn-primary" onClick="javascript:validateForm()"><img src="img/whatsapp.png" /></button>
     </div>
   </form>
-
+  <br>
 
   <footer class="pie-pagina">
     <div class="grupo-1">
@@ -156,66 +107,5 @@
       <small>&copy; 2022 <b>Plantas MDQ</b> - Todos los Derechos Reservados.</small>
     </div>
   </footer>
-    <header>
-        <h1>Contacto.html</h1>
-    </header>
-    <nav class="navbar navbar-expand-lg bg-light">
-        <div class="container-fluid">
-          <a class="navbar-brand" href="#">Navbar</a>
-          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
-            <span class="navbar-toggler-icon"></span>
-          </button>
-          <div class="collapse navbar-collapse" id="navbarSupportedContent">
-            <ul class="navbar-nav me-auto mb-2 mb-lg-0">
-              <li class="nav-item">
-                <a class="nav-link active" aria-current="page" href="index.html">Home</a>
-              </li>
-              <li class="nav-item">
-                <a class="nav-link" href="productos.html">Productos</a>
-              </li>
-              <li class="nav-item">
-                <a class="nav-link" href="nosotros.html">Nosotros</a>
-              </li>
-              <li class="nav-item">
-                <a class="nav-link" href="contacto.html">Contacto</a>
-              </li>
-            </ul>
-            <form class="d-flex" role="search">
-              <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
-              <button class="btn btn-outline-success" type="submit">Search</button>
-            </form>
-          </div>
-        </div>
-      </nav>
-    
-    <form class="row g-3" formaction="https://www.google.com">
-        <div class="col-md-6">
-          <label for="inputNombre" class="form-label">Nombre</label>
-          <input type="text" class="form-control" id="inputNombre">
-        </div>
-        <div class="col-md-6">
-          <label for="inputEmail" class="form-label">Email</label>
-          <input type="email" class="form-control" id="inputEmail">
-        </div>
-        <div class="col-12">
-          <label for="inputReason" class="form-label">Motivo</label>
-          <input type="text" class="form-control" id="inputReason" placeholder="Estoy interesado en...">
-        </div>
-        <div class="col-9">
-          <button type="submit"  class="btn btn-primary" onClick="javascript:validateForm()"><img src="img/whatsapp.png" /></button>
-        </div>
-      </form>
-      <br>
-      
-      
-    <!--<button onClick="javascript:submitButton()"><img src="img/whatsapp.png" /></button>
-    <footer>
-        <i class='bx bxl-facebook-circle' style='color:#253ea1'></i>
-        <i class='bx bxl-whatsapp bx-xl' style='color:#19e10c' ></i>
-    </footer>
-    -->
-
-
 </body>
-
 </html>
