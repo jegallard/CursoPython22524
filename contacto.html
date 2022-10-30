@@ -5,13 +5,157 @@
   <meta charset="UTF-8">
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="css/estilos.css">
   <link rel="stylesheet" href="css/bootstrap.min.css">
   <script src="js/bootstrap.min.js"></script>
   <script src="js/contacto.js"></script>
+  <script src="https://kit.fontawesome.com/562201e81a.js" crossorigin="anonymous"></script>
   <title>Contacto</title>
 </head>
 
 <body>
+
+  <header>
+    <a href="index.html" class="logo">
+      <img src="img/logo png.png" alt="logo de la empresa">
+    </a>
+    <a href="index.html" class="titulo-header">
+      <h2 class="nombre-empresa">
+        Plantas MDQ
+      </h2>
+    </a>
+    <div class="redes-header">
+      <a href="https://www.facebook.com/" class="fa fa-facebook" target="_blank"></a>
+      <a href="https://www.instagram.com/puntohuertaok/" class="fa fa-instagram" target="_blank"></a>
+      <a href="https://twitter.com/?lang=es" class="fa fa-twitter" target="_blank"></a>
+      <a href="https://www.youtube.com/channel/UC0KEON-vDcBgbkjhIXh7hgQ" class="fa fa-youtube" target="_blank"></a>
+    </div>
+  </header>
+
+  <nav class="navbar navbar-expand-lg bg-light">
+    <div class="container-fluid">
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent"
+        aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="navbarSupportedContent">
+        <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+          <li class="nav-item">
+            <a class="nav-link active" aria-current="page" href="index.html">Inicio</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="productos.html">Productos</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="nosotros.html">Nosotros</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="contacto.html">Contacto</a>
+          </li>
+        </ul>
+        <form class="d-flex" role="search">
+          <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
+          <button class="btn btn-outline-success" type="submit">Buscar</button>
+        </form>
+      </div>
+    </div>
+  </nav>
+
+  <form class="row g-3">
+    <div class="col-md-6">
+      <label for="inputNombre" class="form-label">Nombre</label>
+      <input type="email" class="form-control" id="inputNombre">
+    </div>
+    <div class="col-md-6">
+      <label for="inputPassword4" class="form-label">Contraseña</label>
+      <input type="password" class="form-control" id="inputPassword4">
+    </div>
+    <div class="col-12">
+      <label for="inputAddress" class="form-label">Dirección</label>
+      <input type="text" class="form-control" id="inputAddress">
+    </div>
+    <div class="col-12">
+      <label for="inputAddress2" class="form-label">Dirección 2</label>
+      <input type="text" class="form-control" id="inputAddress2">
+    </div>
+    <div class="col-md-6">
+      <label for="inputCity" class="form-label">Ciudad</label>
+      <input type="text" class="form-control" id="inputCity">
+    </div>
+    <div class="col-md-4">
+      <label for="inputState" class="form-label">Provincia</label>
+      <select id="inputState" class="form-select">
+        <option selected>Elegir...</option>
+        <option>Buenos Aires</option>
+        <option>Ciudad Autónoma de Buenos Aires</option>
+        <option>Chaco</option>
+        <option>Chubut</option>
+        <option>Córdoba</option>
+        <option>Corrientes</option>
+        <option>Entre Rios</option>
+        <option>Formosa</option>
+        <option>Jujuy</option>
+        <option>La Pampa</option>
+        <option>La Rioja</option>
+        <option>Mendoza</option>
+        <option>Misiones</option>
+        <option>Neuquén</option>
+        <option>Río Negro</option>
+        <option>Salta</option>
+        <option>San Juan</option>
+        <option>San Luis</option>
+        <option>Santa Cruz</option>
+        <option>Santa Fé</option>
+        <option>Santiago del Estero</option>
+        <option>Tierra del Fuego</option>
+        <option>Tucumán</option>
+      </select>
+    </div>
+    <div class="col-md-2">
+      <label for="inputZip" class="form-label">Código postal</label>
+      <input type="text" class="form-control" id="inputZip">
+    </div>
+    <div class="col-12">
+      <div class="form-check">
+        <input class="form-check-input" type="checkbox" id="gridCheck">
+        <label class="form-check-label" for="gridCheck">
+          Check me out
+        </label>
+      </div>
+    </div>
+    <div class="col-9">
+      <button type="submit" class="btn btn-primary">Confirmar</button>
+    </div>
+  </form>
+
+
+  <footer class="pie-pagina">
+    <div class="grupo-1">
+      <div class="box">
+        <figure>
+          <img src="img/logo png.png" alt="Logo de vivero">
+        </figure>
+      </div>
+      <div class="box">
+        <h2>SOBRE NOSOTROS</h2>
+        <p> Somos un vivero que con mucha buena onda y alegría llevamos a tu casa la naturaleza para que puedas conectar
+          con ella.</p>
+      </div>
+      <div class="box">
+        <h2>SIGUENOS</h2>
+        <div class="red-social">
+          <a href="https://www.facebook.com/" class="fa fa-facebook" target="_blank"></a>
+          <a href="https://www.instagram.com/puntohuertaok/" class="fa fa-instagram" target="_blank"></a>
+          <a href="https://twitter.com/?lang=es" class="fa fa-twitter" target="_blank"></a>
+          <a href="https://www.youtube.com/channel/UC0KEON-vDcBgbkjhIXh7hgQ" class="fa fa-youtube" target="_blank"></a>
+        </div>
+      </div>
+    </div>
+
+    <div class="grupo-2">
+      <small>&copy; 2022 <b>Plantas MDQ</b> - Todos los Derechos Reservados.</small>
+    </div>
+  </footer>
     <header>
         <h1>Contacto.html</h1>
     </header>
