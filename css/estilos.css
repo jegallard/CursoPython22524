@@ -23,7 +23,8 @@ header{
 }
 
 .logo img{
-    height: 50px;
+    height: 100px;
+    align-items: center;
 }
 
 .titulo-header{
