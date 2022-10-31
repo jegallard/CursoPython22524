@@ -1,8 +1,6 @@
 function validateForm(){
-    return true
-    /*
     var URL = "https://api.whatsapp.com/send?phone="
-    var telefono = "593982210224"
+    var telefono = "541169253443"
     var textoNombre = "&text=Hola%20soy%20"
     var nombre = document.getElementById("inputNombre").value
     var textoMail = "%20mi%20email%20es%20"
@@ -13,11 +11,14 @@ function validateForm(){
     var final = URL+telefono+textoNombre+nombre+textoMail+mail+textoReason+reason
     alert(final)
     //window.location.replace(final);
-    //window.location.replace("http://stackoverflow.com");
-    //window.location.href = "http://stackoverflow.com";
-    location.replace("https://www.w3schools.com")
-    location.href("https://www.w3schools.com")
-    location.assign(final)
+    //alert("windows.location")
+    window.location.replace("http://stackoverflow.com");
+    //alert("windows.location.href")
+    window.location.href = "http://stackoverflow.com";
+    //alert("location.replace")
+    location.replace("http://stackoverflow.com")
+    //alert("location.href")
+    location.href("http://stackoverflow.com")
+    //location.assign(final)
     //document.location.href="http://manouvellepage.com"
-    */
 }
