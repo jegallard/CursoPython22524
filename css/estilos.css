@@ -266,3 +266,37 @@ header{
   }
 
 /*TERMINA CONTACTO*/
+
+/* INDEX */
+
+.ver_mas2 {
+    cursor: pointer;
+    border: 0px solid #da8b24;
+    background-color: transparent;
+    height: 50px;
+    width: 200px;
+    color: #da8b24;
+    font-size: 1.5em;
+    box-shadow: 0 6px 6px rgba(0, 0, 0, 0.6);
+}
+
+.ver_mas {
+    border: 1px solid #ffffff; /*anchura, estilo y color borde*/
+    padding: 10px; /*espacio alrededor texto*/
+    background-color: transparent; /*color botón*/
+    color: #ffffff; /*color texto*/
+    text-decoration: none; /*decoración texto*/
+    text-transform: uppercase; /*capitalización texto*/
+    font-family: 'Helvetica', sans-serif; /*tipografía texto*/
+    font-weight: bold;
+    border-radius: 50px; /*bordes redondos*/
+    height: 40px;
+    width: 200px;
+    }
+
+.regala_vida {
+    font-size:600%;
+    letter-spacing: 4px;
+    color: #ffffff;
+}
+/* TERMINA INDEX */
