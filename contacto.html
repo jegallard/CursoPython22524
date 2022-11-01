@@ -68,7 +68,7 @@
   </nav>
   <br><br><br><br>
 <div class="contacto">
-  <form class="row g-3" formaction="https://www.google.com">
+  <form class="row g-3" onsubmit="return submitForm()">
     <div class="col-md-6">
       <label for="inputNombre" class="form-label">Nombre</label>
       <input type="text" class="form-control" id="inputNombre">
@@ -82,7 +82,8 @@
       <input type="text" class="form-control" id="inputReason" placeholder="Estoy interesado en...">
     </div>
     <div class="col-9">
-      <button type="submit"  class="btn btn-primary" onClick="javascript:validateForm()"><img src="img/whatsapp.png" width="200" height="40"/></button>
+      <!--<button type="submit"  class="btn btn-primary" onClick="javascript:validateForm()"><img src="img/whatsapp2.png" width="200" height="40"/></button>-->
+      <input type="image" onClick="javascript:validateForm(this.form)" src="img/whatsapp2.png" width="252" height="126"/>
     </div>
   </form>
 </div>
